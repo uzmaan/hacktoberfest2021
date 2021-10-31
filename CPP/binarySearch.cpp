@@ -25,8 +25,10 @@ public:
 int main()
 {
     Solution s1;
-    //int t;
+    int t;
     vector<int> vec = {-1,0,3,5,9,12};
-    cout << s1.search(vec, 9);
+    cout<<"enter the target";
+    cin>>t;
+    cout << s1.search(vec, t);
     return 0;
 }
